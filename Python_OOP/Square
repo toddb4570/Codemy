@@ -1,0 +1,24 @@
+
+
+class Square:
+	def __init__(Self, side_length):
+		Self.side_length = side_length
+
+	def area(Self):
+		return(Self.side_length * Self.side_length)
+
+	def perimeter(Self):
+		return(Self.side_length * 4)
+
+	def report(Self):
+		print(f"Side length is {Self.side_length}")
+		print(f"Area is {Self.area()}")
+		print(f"Perimeter is {Self.perimeter()}")
+
+
+
+def main():
+	my_square = Square(20)
+	my_square.report()
+
+main()
